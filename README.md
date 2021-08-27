@@ -28,6 +28,7 @@ In this project, I will be using tools such as unsupervised learning and Amazon 
 2. Initialized the K-Means model, fit eh K-Means model, create a DataFrame including predicted clusters & cryptocurrencies features
 ![image](https://user-images.githubusercontent.com/80294571/131065959-ca1c7945-de96-4371-8a16-f2415f0512cf.png)
 
+## Data Visualization:
 ### Table of Cryptocurrencies:
 ![image](https://user-images.githubusercontent.com/80294571/131066060-624d71bd-903c-4904-8011-086a29593418.png)
 
