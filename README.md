@@ -1,4 +1,4 @@
-# Cool_CryptoCurrency_Cluster
+# Cool CryptoCurrency Cluster
 ![pexels-worldspectrum-1097947](https://user-images.githubusercontent.com/80294571/131062784-7a3c2628-6cd9-42d5-952e-5917ab9f277e.jpg)
 
 ## Background:
@@ -13,9 +13,9 @@ In this project, I will be using tools such as unsupervised learning and Amazon 
 ### Loading and PreProcessing Data:
 1. Load data, create DataFrame w/neccessary coulmns
 ![image](https://user-images.githubusercontent.com/80294571/131064542-02db9a92-b63d-487d-8cd6-72e7d6c91eb3.png)
-2. Remove rows with cryptocurrencies having no coins mined
+2. Remove rows with cryptocurrencies that don't have any coins mined
 ![image](https://user-images.githubusercontent.com/80294571/131064931-0aeed86d-32ba-45c5-b227-cf313cfe1f50.png)
-3. Drop the "CoinName" column, it wont be used inthe clustering algorithm
+3. Drop the "CoinName" column, it wont be used in the clustering algorithm
 ![image](https://user-images.githubusercontent.com/80294571/131065144-e5ecab38-c5a7-4909-a397-0abed6cf534e.png)
 
 ### Reducing Dimensions Using PCA:
