@@ -11,21 +11,21 @@ In this project, I will be using tools such as unsupervised learning and Amazon 
 
 ## Steps:
 ### Loading and PreProcessing Data:
-1. Load data, create DataFrame w/neccessary coulmns
+1. *Load data, create DataFrame w/neccessary coulmns*
 ![image](https://user-images.githubusercontent.com/80294571/131064542-02db9a92-b63d-487d-8cd6-72e7d6c91eb3.png)
-2. Remove rows with cryptocurrencies that don't have any coins mined
+2. *Remove rows with cryptocurrencies that don't have any coins mined*
 ![image](https://user-images.githubusercontent.com/80294571/131064931-0aeed86d-32ba-45c5-b227-cf313cfe1f50.png)
-3. Drop the "CoinName" column, it wont be used in the clustering algorithm
+3. *Drop the "CoinName" column, it wont be used in the clustering algorithm*
 ![image](https://user-images.githubusercontent.com/80294571/131065144-e5ecab38-c5a7-4909-a397-0abed6cf534e.png)
 
 ### Reducing Dimensions Using PCA:
-1. Reduce dimensions to 3 principal components. Then load into DataFrame w/principle components data
+1. *Reduce dimensions to 3 principal components. Then load into DataFrame w/principle components data*
 ![image](https://user-images.githubusercontent.com/80294571/131065477-535d61bc-4a09-4945-bb8d-491cb8e8c697.png)
 
 ### Clustering Cryptocurrencies Using K-Means:
-1. Finding the best value for k using the Elbow Curve, using the inertia model
+1. *Finding the best value for K using the Elbow Curve, using the inertia model*
 ![image](https://user-images.githubusercontent.com/80294571/131065632-f83ee978-d6a3-4ebc-bc0a-a058f81936fa.png)
-2. Initialized the K-Means model, fit eh K-Means model, create a DataFrame including predicted clusters & cryptocurrencies features
+2. *Initialized the K-Means model, fit the K-Means model, create a DataFrame including predicted clusters & cryptocurrencies features*
 ![image](https://user-images.githubusercontent.com/80294571/131065959-ca1c7945-de96-4371-8a16-f2415f0512cf.png)
 
 ## Data Visualization:
