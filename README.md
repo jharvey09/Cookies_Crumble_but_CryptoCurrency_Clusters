@@ -3,6 +3,20 @@
 
 ## Background:
 In this project, I will be using tools such as unsupervised learning and Amazon SageMaker to initiate clustering cryptocurrencies and to create plots that will present the results.
+
+## Table Of Contents:
+[Tasks](https://github.com/jharvey09/Cookies_Crumble_but_CryptoCurrency_Clusters#tasks)
+
+[Steps](https://github.com/jharvey09/Cookies_Crumble_but_CryptoCurrency_Clusters#steps)
+
+[Reducing Dimensions Using PCA](https://github.com/jharvey09/Cookies_Crumble_but_CryptoCurrency_Clusters#reducing-dimensions-using-pca)
+
+[Clustering Cryptocurrencies Using K-Means](https://github.com/jharvey09/Cookies_Crumble_but_CryptoCurrency_Clusters#clustering-cryptocurrencies-using-k-means)
+
+[Data Visualization](https://github.com/jharvey09/Cookies_Crumble_but_CryptoCurrency_Clusters#data-visualization)
+
+
+
 ### Tasks:
 1. **Data PreProcessing**: Prepare data for dimension reduction with PCA and clustering using K-Means
 2. **Reducing Data Dimensions Using PCA**: Reducing data dimensions using the PCA algorithm from sklearn
